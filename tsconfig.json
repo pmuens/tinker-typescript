@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "outDir": "dist",
+    "pretty": true,
+    "sourceMap": true,
+    "lib": ["dom", "es2020", "esnext.asynciterable"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@pmuens/tinker-typescript",
+  "version": "0.1.0",
+  "description": "Playing around with TypeScript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmuens/tinker-typescript"
+  },
+  "author": "Philipp Muens",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint --project tsconfig.json {src,test}/**/*.ts && prettier-check --ignore-path .gitignore {src,.}/{*.ts,*.js}",
+    "build": "rm -rf dist && tsc -d",
+    "format": "prettier --write --ignore-path .gitignore {src,.}/{*.ts,*.js}",
+    "watch": "rm -rf dist && tsc --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "prettier": "^1.18.2",
+    "prettier-check": "^2.0.0",
+    "tslint": "^5.20.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.6.3"
+  }
+}
