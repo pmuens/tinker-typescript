@@ -26,7 +26,7 @@ const resNumbers2 = map1(someNumbers, add2)
 console.log(resNumbers2)
 
 // NOTE: we cannot use our `map1` on strings since `map1` can only deal with numbers --> Solution: Use Generics!
-// const resStrings2 = map(someStrings, wrapString)
+// const resStrings2 = map1(someStrings, wrapStr)
 // console.log(resStrings2)
 
 // the generic version of our `map` function which can deal with any type
