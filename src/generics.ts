@@ -4,7 +4,7 @@ import { println } from './utils/logging'
 const someNumbers = [1, 2, 3, 4, 5, 6]
 const someStrings = ['Alice', 'Bob', 'John', 'Alex', 'Pete']
 
-// functions which are used for our mapping
+// functions which are used for our filtering / mapping
 const add2 = (num: number): number => num + 2
 const isEven = (num: number): boolean => num % 2 === 0
 const startsWithA = (str: string): boolean => str.toLowerCase().charAt(0) === 'a'
